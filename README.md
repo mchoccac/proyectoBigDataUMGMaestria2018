@@ -42,7 +42,7 @@ pip install arrow
 #bajar esto https://sourceforge.mirrorservice.org/p/py/pyqt/PyQt4/PyQt-4.12.1/PyQt4_gpl_x11-4.12.1.tar.gz
 #bajar esto  https://kent.dl.sourceforge.net/project/pyqt/sip/sip-4.19.8/sip-4.19.8.tar.gz
 
-#descomprimir sip
+#descomprimir sip <br>
 #cd $VIRTUAL_ENV/include/
 #rm python2.7
 #cp -r /usr/include/python2.7/ .
@@ -67,8 +67,7 @@ export TWITTER_ACCESS_SECRET=""
 python twitter_s.py
 
 
-# Analisis aqui se encuentra los analisis que se hizo
-# en filename es donde debes de colocar la direccion donde esta lo que se habajado en carpeta Streamig
+# Analisis aqui se encuentra los analisis que se hizo, en filename es donde debes de colocar la direccion donde esta lo que se habajado en carpeta Streamig
 
 #muestra las estadisticas
 python  Estadistica.py
