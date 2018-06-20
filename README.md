@@ -1,19 +1,26 @@
+# configuracion para limpieza del archivo
 
+muestra una linea sed -n 39000p jsonl.sql
 
-#muestra una linea sed -n 39000p jsonl.sql
-#limpiar lineas vasios grep . fichero > fichero2
-#sed '/\"limit:\"/d' Analizar_limpiado_raw.jsonl  > Analizar_limpiado_fin.jsonl
-#base  de datos 2269049   248793678 15372381571
-#base de daatos 2255627
-#cat *.jsonl > Analizar_limpiado_fin.json
-#instalar python2.7 
-#usaremos una jaula para realizar una instalacion donde nos indicara todas las depencias.
+limpiar lineas vasios grep . fichero > fichero2
 
+sed '/\"limit:\"/d' Analizar_limpiado_raw.jsonl  > Analizar_limpiado_fin.jsonl
+
+base  de datos 2269049   248793678 15372381571
+
+base de daatos 2255627
+
+cat *.jsonl > Analizar_limpiado_fin.json
+
+instalar python2.7 
+
+# usaremos una jaula para realizar una instalacion donde nos indicara todas las depencias.
 mkdir env
 virtualenv env
 source env/bin/activate
 
-#instalar estos
+# instalar estas depencias
+
 pip install numpy
 pip install pandas
 pip install scikit-learn
