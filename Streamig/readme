@@ -1,1 +1,13 @@
+crear una cuenta en twitter y exporta esto en terminal de windows o en gnu/linux
 
+Gnu/linux
+export TWITTER_CONSUMER_KEY=""
+export TWITTER_CONSUMER_SECRET=""
+export TWITTER_ACCESS_TOKEN=""
+export TWITTER_ACCESS_SECRET=""
+
+Winodows 
+SET PATH TWITTER_CONSUMER_KEY=""
+SET PATH TWITTER_CONSUMER_SECRET=""
+SET PATH TWITTER_ACCESS_TOKEN=""
+SET PATH TWITTER_ACCESS_SECRET=""
